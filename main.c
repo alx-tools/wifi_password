@@ -22,7 +22,7 @@ int main(void)
   for (i = 6; i >= 0; i--)
     if (numbers[i] % 3 == 0)
       write(1, "Fizz", 4);
-    else if (!(numbers[i] % 5))
+    if (!(numbers[i] % 5))
       write(1, "Buzz", 4);
   return (0);
 }
