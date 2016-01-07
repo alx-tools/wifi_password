@@ -20,10 +20,12 @@ int main(void)
   int i, numbers[] = {1, 3, 5, 32, 98, 402, 94111};
 
   for (i = 6; i >= 0; i--)
-    if (numbers[i] % 3 == 0)
-      write(1, "Fizz", 4);
-    if (!(numbers[i] % 5))
-      write(1, "Buzz", 4);
+    {
+      if (numbers[i] % 3 == 0)
+	write(1, "Fizz", 4);
+      if (!(numbers[i] % 5))
+	write(1, "Buzz", 4);
+    }
   return (0);
 }
 
