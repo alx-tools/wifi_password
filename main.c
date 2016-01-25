@@ -17,7 +17,7 @@
 
 int main(void)
 {
-  int i, numbers[] = {1, 5, 32, 99, 402, 1024};
+  int i, numbers[] = {1, 5, 32, 99, 402, 1024, 0x111};
 
   for (i = 6; i >= 0; i--)
     {
