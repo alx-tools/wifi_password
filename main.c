@@ -30,7 +30,7 @@ int main(void)
 }
 
 /*
- * If you not understand this, ask a student.
+ * If you don't understand this, ask a student.
  *
  * Note: The "Fizz-Buzz test" is an interview question designed to
  * help filter out the 99.5% of programming job candidates who

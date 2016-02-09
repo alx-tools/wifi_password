@@ -22,4 +22,4 @@ puts [53, 154, 38, 625, 98, 238].map { |number|
 }.join
 
 
- # If you not understand this, ask a student.
+ # If you don't understand this, ask a student.
