@@ -17,13 +17,14 @@
 
 int main(void)
 {
-  int i, numbers[] = {1, 5, 32, 99, 402, 1024, 0x111};
+  int i;
+  int numbers[] = {1, 2, 15, 26, 28, 98, 163, 402, 691};
 
-  for (i = 6; i >= 0; i--)
+  for (i = 0; i < 8; i++)
     {
       if (numbers[i] % 3 == 0)
 	write(1, "Fizz", 4);
-      if (!(numbers[i] % 5))
+      if (numbers[i] % 5 == 0)
 	write(1, "Buzz", 4);
     }
   return (0);
